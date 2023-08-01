@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=512&id=8118&format=png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <title>To-Do List </title>
+</head>
+<body>
+
+    <div class="root">
+        <div class="container">
+            <div class="heading" style="text-align: center;">
+                <h1 class="row" style="color:rgb(22, 63, 29)">TO-DO LIST</h1>
+            </div>
+           
+            <br>
+            <div class="row">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" placeholder="Add Items" id="box" style="width:30vw">
+                    </div>
+                    <br>
+                    <div class="form-group" style="text-align: center;">
+                        <input type="button" id="btn" value="Add" style="width:10vw; "
+                       onclick="add_item()">
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <ol id="list-item" type="button">
+    
+                </ol>
+               
+            </div>
+            <div id="error"></div>
+        </div>
+        
+   
+    </div>
+  
+
+    <script src="./script.js"></script>
+</body>
+</html>
