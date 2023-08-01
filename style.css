@@ -82,3 +82,26 @@ li{
 i{
     color: red;
 }
+h1{
+   color: rgb(22, 63, 29);
+}
+
+/* Add a new media query section for smaller screens */
+@media screen and (max-width: 500px) {
+    .container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+    #box {
+      width: 70vw; /* Adjust the width of the input box for smaller screens */
+    }
+    #btn {
+      width: 25vw; /* Adjust the width of the button for smaller screens */
+    }
+    h1 {
+      font-size: 24px; /* Reduce the font size for the heading on smaller screens */
+    }
+    li {
+      font-size: 20px; /* Reduce the font size of list items on smaller screens */
+    }
+  }
+  
