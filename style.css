@@ -79,6 +79,7 @@ li{
     transform: translateY(0);
   }
 }
+
 i{
     color: red;
 }
@@ -87,7 +88,7 @@ h1{
 }
 
 /* Add a new media query section for smaller screens */
-@media screen and (max-width: 400px) {
+@media (max-width: 500px) {
     .container {
       padding: 10px; /* Reduce padding for smaller screens */
     }
@@ -97,6 +98,7 @@ h1{
     #btn {
       width: 25vw;
       font-size: 16px;
+      padding: 5px;
       /* Adjust the width of the button for smaller screens */
     }
     h1 {
